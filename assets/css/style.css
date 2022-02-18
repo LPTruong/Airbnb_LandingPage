@@ -1,0 +1,455 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+body {
+  font-family: inherit !important;
+  background-color: black;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+
+#wrapper {
+  
+}
+
+#header {
+  height: 5rem;
+  padding: 0 80px;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+
+}
+#header #logo {
+  align-items: center !important;
+  display: inline-flex !important;
+  position: relative !important;
+  vertical-align: middle !important;
+  float: left;
+  line-height: 5rem;
+  cursor: pointer;
+}
+
+#header #logo a {
+  font-family: 'Josefin Sans', sans-serif !important;
+  padding: 0px 5px;
+  color: white;
+  font-size: 24px;
+  font-weight: 700 !important;
+  text-decoration: none;
+
+}
+
+
+
+#header #nav li,
+#header #nav {
+  display: inline-block;
+  line-height: 5rem;
+
+}
+#header #nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 1rem;
+}
+#header #nav li a:hover {
+  text-decoration: none;
+  opacity: 0.8 !important;
+ 
+}
+
+#header_content {
+  display: inline-block;
+  line-height: 5rem;
+  float: right;
+}
+
+#header_content .header_content{
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+   
+}
+#header_content .header_content .content{
+  display: flex !important;
+  flex: auto !important;
+  justify-content: flex-end !important;
+  margin-right: 8px !important;
+  height: 42px;
+
+}
+#header_content .header_content .content a{
+  appearance: none !important;
+  background: transparent !important;
+  border: 0px !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  font-family: inherit !important;
+  font-size: 14px !important;
+  font-weight: 550 !important;
+  line-height: 18px !important;
+  margin: 0px !important;
+  outline: none !important;
+  overflow: visible !important;
+  padding: 12px !important;
+  text-align: inherit !important;
+  text-decoration: none !important;
+  user-select: auto !important;
+  position: relative !important;
+  white-space: nowrap !important;
+  z-index: 1 !important;
+  color: #FFFFFF !important;
+
+}
+#header_content .header_content .content a:hover,
+#header_content .header_content .content button:hover {
+  padding: 12px;
+  background-color:rgba(255, 255, 255, 0.15) !important;
+  border-radius: 21px;
+}
+
+#header_content .header_content .content button {
+    appearance: none !important;
+    background: transparent !important;
+    border: 0px !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    padding: 12px !important;
+    text-align: inherit !important;
+    position: relative !important;
+    white-space: nowrap !important;
+    z-index: 1 !important;
+    color: #FFFFFF !important;
+}
+.btn_account {
+  display: inline-block;
+  
+  
+}
+#header .btn_user {
+  align-items: center !important;
+  display: inline-flex !important;
+  position: relative !important;
+  vertical-align: middle !important;
+  padding: 5px 5px 5px 10px;
+  width: 77px;
+  height: 42px;
+  background-color: white;
+  border-radius: 21px;
+  cursor: pointer;
+
+}
+#search{
+  display: flex;
+  background-color: #f1f1f1;
+  justify-content: center;
+  border-radius: 32px;
+  width: 53rem;
+  margin: auto;
+  border: 1px solid #DDDDDD !important;
+  align-items: center;
+  position: fixed;
+  left:0px;
+  right: 0px;
+  top:80px;
+}
+#search input{
+  outline: none;
+}
+#search #search_location {
+  background-color: #f1f1f1;
+  width: 268px;
+  display: block;
+  padding: 14px 32px;
+  border: 1px;
+  border-radius: 32px;
+}
+#search #search_location:hover,
+#search #search_checkin:hover,
+#search #search_checkout:hover,
+#search #search_guests:hover,
+#search #button_search #btn_search:hover {
+  background-color: gainsboro;
+  border-radius: 32px;
+}
+#search #button_search #btn_search:hover {
+  background-color: #e93253;
+}
+#search #search_checkin {
+  background-color: #f1f1f1;
+  width: 180px;
+  font-size: 30px;
+  display: block;
+  padding: 14px;
+  border: 1px;
+}
+#search #search_checkout {
+  background-color: #f1f1f1;
+  width: 180px;
+  display: block;
+  padding: 14px;
+  border: 1px;
+}
+#search #search_guests {
+  background-color: #f1f1f1;
+  width: 170px;
+  display: block;
+  padding: 14px;
+  border: 1px;
+  border-radius: 32px;
+}
+#search #button_search{
+  margin-left: -6px;
+  padding-right: 9px;
+}
+#search #btn_search{
+  background-color: #FF385C;
+  width: 46px;
+  height: 46px !important;
+  align-items: center;
+  display: block;
+  padding: 14px;
+  border: 1px;
+  border-radius: 23px;
+ 
+}
+#search .content_title{
+  font-size: 12px !important;
+  line-height: 16px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.04em !important;
+  padding-bottom: 2px !important;
+}
+#search .content{
+  display: block !important;
+  border: 0px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100% !important;
+  background: none !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  color: #222222 !important;
+  text-overflow: ellipsis !important;
+}
+#search_separator{
+  align-self: center !important;
+  border-right: 1px solid #DDDDDD !important;
+  flex: 0 0 0px !important;
+  height: 32px !important;
+}
+#slider_form{
+  position: relative;
+  background-image: url('D:/For_Work/Airbnb/assets/img/background_city.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50%;
+  z-index: -1;
+}
+.slider_content {
+  position:absolute;
+  padding: 0px 80px;
+  color: white;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+#slider_form .slider_content h1 {
+  font-size: 40px;
+}
+#slider_form .slider_content .text_content {
+  width: 300px;
+  margin: 20px 0px;
+}
+
+#slider_form .slider_content .btn_explore img {
+  margin-left: 15px;
+  margin-right: 7px;
+}
+
+
+/* Begin carousel slide*/
+.slider_wrap{
+  
+}
+.banner_slider{
+  height: 100vh;
+  min-width: 300px;
+  z-index: -1;
+}
+.thumbnail_slider_area{
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(50%);
+  width: 100%;
+}
+.thumbnail_slider_area .thumbnail_slider {
+  margin-left: 700px;
+  
+}
+.thumbnail_slider_area .thumbnail_slider .items {
+  margin: 50px;
+  width: 200px;
+  height: 340px;
+}
+.thumbnail_slider_area .thumbnail_slider .items img {
+  transition: all linear 0.5s;
+  opacity: 0.8;
+  width: 200px;
+  height: 300px;
+}
+.thumbnail_slider_area .thumbnail_slider .items .thumnails_text {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.884);
+  font-size: 17px;
+}
+
+
+.thumbnail_slider_area .thumbnail_slider .slick-current {
+  transform:scale(1.2) ;
+  opacity: 1;
+  z-index: 2 !important;
+}
+
+.slick-slider .thumnails_text{
+  opacity: 0;
+}
+.thumbnail_slider_area .thumbnail_slider .slick-current .thumnails_text {
+  opacity: 1;
+}
+
+.slick-dots {
+  display: flex;
+  margin-left: -325px;
+  bottom: -115px;
+  justify-content: center;
+}
+.slick-dots li button:before {
+  font-size: 23px;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: white !important;
+}
+.slick-dots li button:before{
+  opacity: 1;
+  color: rgb(192, 192, 192);
+}
+.slick-dots li{
+  margin: 10px 20px;
+  
+}
+
+.bg-1{
+  position: relative;
+  background-image: url('D:/For_Work/Airbnb/assets/img/Hanoi4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.bg-2{
+  position: relative;
+  background-image: url('D:/For_Work/Airbnb/assets/img/Hochiminh3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  max-width: 100%;
+  height: 100vh;
+}
+.bg-3{
+  position: relative;
+  background-image: url('D:/For_Work/Airbnb/assets/img/Pink Beach, East Nusa Tenggara, Indonesia.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  max-width: 100%;
+  height: 100vh;
+}
+.bg-4{
+  position: relative;
+  background-image: url('D:/For_Work/Airbnb/assets/img/Ko Phi Phi Leh Island, Thailand.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  max-width: 100%;
+  height: 100vh;
+}
+.bg-5{
+  position: relative;
+  background-image: url('D:/For_Work/Airbnb/assets/img/Bernese Oberland,Switzerland.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  max-width: 100%;
+  height: 100vh;
+}
+.bg-6{
+  position: relative;
+  background-image: url('D:/For_Work/Airbnb/assets/img/Golden Gate bridge and San Francisco Bay.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  max-width: 100%;
+  height: 100vh;
+}
+.slider_content{
+  position:absolute !important;
+  padding: 0px 80px !important;
+  color: white;
+  bottom: 50% !important;
+  transform: translateY(50%) !important;
+}
+.slider_content h5 {
+  font-size: 40px;
+}
+
+.slider_content p {
+  margin: 20px 0px;
+  width: 300px;
+  line-height: 1.6;
+}
+.btn_explore {
+  background-color: #FF385C;
+  font-size: 28px;
+  color: white;
+  padding: 10px 0px 10px 20px;
+  border-radius: 20px;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 500 !important;
+}
+.btn_explore img {
+  margin-left: 15px;
+  margin-right: 7px;
+}
+
+/* End carousel slide */
+#content {
+  
+}
+
+#footer{
+  
+}
+
+  
