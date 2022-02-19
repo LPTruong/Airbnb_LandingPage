@@ -146,8 +146,12 @@ html {
   vertical-align: middle !important;
   color: white;
   cursor: pointer;
-
 }
+
+#header .btn_user:hover {
+  color: rgb(212, 212, 212);
+}
+
 #search{
   display: flex;
   background-color: #f1f1f1;
