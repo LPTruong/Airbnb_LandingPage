@@ -87,6 +87,7 @@ html {
   justify-content: flex-end !important;
   margin-right: 8px !important;
   height: 42px;
+  padding-right: 10px;
 
 }
 #header_content .header_content .content a{
@@ -131,6 +132,7 @@ html {
     white-space: nowrap !important;
     z-index: 1 !important;
     color: #FFFFFF !important;
+   
 }
 .btn_account {
   display: inline-block;
@@ -139,14 +141,10 @@ html {
 }
 #header .btn_user {
   align-items: center !important;
-  display: inline-flex !important;
+  display: inline-block!important;
   position: relative !important;
   vertical-align: middle !important;
-  padding: 5px 5px 5px 10px;
-  width: 77px;
-  height: 42px;
-  background-color: white;
-  border-radius: 21px;
+  color: white;
   cursor: pointer;
 
 }
