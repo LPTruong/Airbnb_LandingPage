@@ -353,7 +353,7 @@ html {
 
 .bg-1{
   position: relative;
-  background-image: url(/assets/img/Hanoi4.jpg);
+  background-image: url(../img/Hanoi4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -363,7 +363,7 @@ html {
 }
 .bg-2{
   position: relative;
-  background-image: url('D:/For_Work/Airbnb/assets/img/Hochiminh3.jpg');
+  background-image: url('../img/Hochiminh3.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -373,7 +373,7 @@ html {
 }
 .bg-3{
   position: relative;
-  background-image: url('D:/For_Work/Airbnb/assets/img/Pink Beach, East Nusa Tenggara, Indonesia.jpg');
+  background-image: url('../img/Pink Beach, East Nusa Tenggara, Indonesia.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -383,7 +383,7 @@ html {
 }
 .bg-4{
   position: relative;
-  background-image: url('D:/For_Work/Airbnb/assets/img/Ko Phi Phi Leh Island, Thailand.jpg');
+  background-image: url('../img/Ko Phi Phi Leh Island, Thailand.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -393,7 +393,7 @@ html {
 }
 .bg-5{
   position: relative;
-  background-image: url('D:/For_Work/Airbnb/assets/img/Bernese Oberland,Switzerland.jpg');
+  background-image: url('../img/Bernese Oberland,Switzerland.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -403,7 +403,7 @@ html {
 }
 .bg-6{
   position: relative;
-  background-image: url('D:/For_Work/Airbnb/assets/img/Golden Gate bridge and San Francisco Bay.jpg');
+  background-image: url('../img/Golden Gate bridge and San Francisco Bay.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
