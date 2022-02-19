@@ -336,7 +336,7 @@ html {
   justify-content: center;
 }
 .slick-dots li button:before {
-  font-size: 23px;
+  font-size: 20px;
 }
 .slick-dots li.slick-active button:before {
   opacity: 1;
