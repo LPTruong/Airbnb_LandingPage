@@ -353,7 +353,7 @@ html {
 
 .bg-1{
   position: relative;
-  background-image: url('D:/For_Work/Airbnb/assets/img/Hanoi4.jpg');
+  background-image: url(/assets/img/Hanoi4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
