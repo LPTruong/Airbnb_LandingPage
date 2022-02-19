@@ -249,9 +249,13 @@ html {
   flex: 0 0 0px !important;
   height: 32px !important;
 }
+
+
+
+/* Begin carousel slide*/
+
 #slider_form{
   position: relative;
-  background-image: url('D:/For_Work/Airbnb/assets/img/background_city.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -264,6 +268,7 @@ html {
   color: white;
   bottom: 50%;
   transform: translateY(50%);
+  font-family: "Open Sans",sans-serif;
 }
 #slider_form .slider_content h1 {
   font-size: 40px;
@@ -271,6 +276,7 @@ html {
 #slider_form .slider_content .text_content {
   width: 300px;
   margin: 20px 0px;
+  line-height: 1.4;
 }
 
 #slider_form .slider_content .btn_explore img {
@@ -278,11 +284,6 @@ html {
   margin-right: 7px;
 }
 
-
-/* Begin carousel slide*/
-.slider_wrap{
-  
-}
 .banner_slider{
   height: 100vh;
   min-width: 300px;
@@ -312,7 +313,8 @@ html {
 .thumbnail_slider_area .thumbnail_slider .items .thumnails_text {
   text-align: center;
   color: rgba(255, 255, 255, 0.884);
-  font-size: 17px;
+  font-size: 15px;
+  font-family: "Open Sans",sans-serif ;
 }
 
 
@@ -329,9 +331,11 @@ html {
 .thumbnail_slider_area .thumbnail_slider .slick-current .thumnails_text {
   opacity: 1;
   width: 200px;
+ 
 }
 .thumbnail_slider_area .thumbnail_slider .slick-current .thumnails_text p{
   text-align: center;
+  
 }
 
 .slick-dots {
